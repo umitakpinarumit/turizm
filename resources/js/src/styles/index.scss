@@ -1,0 +1,15 @@
+// Önce Tailwind CSS dosyalarını yükleyin
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// Daha sonra diğer custom CSS dosyalarını ekleyin
+@import "./_theme_colors";
+@import "./_theme_font";
+@import "./_theme_custom";
+@import "./_dates_picker";
+@import "./header";
+@import "../../../../node_modules/@glidejs/glide/src/assets/sass/glide.core";
+body {
+    background-color: pink;
+}
